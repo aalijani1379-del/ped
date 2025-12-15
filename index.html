@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رشد و نمو کودکان | راهنمای جامع</title>
+<style>
+  :root {
+    --primary-color: #2c3e50; /* سرمه‌ای تیره */
+    --accent-color: #3498db;   /* آبی روشن */
+    --bg-light: #f9f9f9;
+    --text-dark: #333;
+    --border-color: #ddd;
+    --success-bg: #e6fffa;
+    --success-border: #00cc99;
+    --warning-bg: #ffe6e6;
+    --warning-border: #ff4d4d;
+    --note-bg: #fffbe6;
+    --note-border: #ffcc00;
+  }
+
+  body { 
+    font-family: 'Tahoma', 'Segoe UI', sans-serif; 
+    line-height: 1.8; 
+    color: var(--text-dark); 
+    background-color: #fff; 
+    margin: 0; 
+    padding: 20px; 
+  }
+
+  h1 { 
+    background-color: var(--primary-color); 
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    font-size: 1.8em; 
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  h3 { 
+    border-bottom: 3px solid var(--accent-color); 
+    padding-bottom: 8px; 
+    margin-top: 40px; 
+    color: #2980b9; 
+    font-size: 1.4em; 
+  }
+  
+  /* استایل جدول‌ها - سه ستونه */
+  .container { 
+    width: 100%; 
+    border-collapse: separate; 
+    border-spacing: 0; 
+    margin-bottom: 20px; 
+    border: 1px solid var(--border-color); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+  .header-row td { 
+    background-color: #4a4a4a; 
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 1px solid #333; 
+  }
+  
+  td { padding: 15px; border-bottom: 1px solid #eee; vertical-align: top; }
+  
+  .col-1 { width: 30%; background-color: #fcfcfc; border-left: 1px solid #eee; } /* ستون اول */
+  .col-2 { width: 35%; background-color: #f0f8ff; border-left: 1px solid #daeefc; } /* ستون دوم */
+  .col-3 { width: 35%; background-color: #f2fff2; } /* ستون سوم */
+  
+  /* جعبه‌های رنگی (Alerts) */
+  .alert-box { 
+    background-color: var(--warning-bg); 
+    border-right: 5px solid var(--warning-border); 
+    padding: 10px; 
+    margin-top: 10px; 
+    font-size: 0.9em; 
+    color: #a00; 
+    border-radius: 4px;
+  }
+
+  .note-box { 
+    background-color: var(--note-bg); 
+    border-right: 5px solid var(--note-border); 
+    padding: 10px; 
+    margin-top: 10px; 
+    font-size: 0.9em; 
+    color: #665c00; 
+    border-radius: 4px;
+  }
+
+  .green-box { 
+    background-color: var(--success-bg); 
+    border-right: 5px solid var(--success-border); 
+    padding: 10px; 
+    margin-top: 10px; 
+    font-size: 0.9em; 
+    color: #00664d; 
+    border-radius: 4px;
+  }
+  
+  ul { margin: 5px 0; padding-right: 25px; }
+  li { margin-bottom: 8px; }
+  
+  .trap { color: #cc0000; font-weight: bold; background-color: #ffeaea; padding: 2px 5px; border-radius: 3px; }
+  
+  /* فرمول‌ها */
+  .formula {
+    direction: ltr;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    display: inline-block;
+    margin: 5px 0;
+  }
+
+  .citation { 
+    font-size: 0.75em; 
+    color: #888; 
+    vertical-align: super; 
+    text-decoration: none; 
+    margin-right: 2px; 
+  }
+
+  /* واکنش‌گرایی برای موبایل */
+  @media (max-width: 768px) {
+    .container, tbody, tr, td { display: block; width: 100%; }
+    .header-row { display: none; }
+    td { border-left: none; border-bottom: 2px solid #ccc; position: relative; padding-top: 30px; }
+    td::before { 
+      content: attr(data-label); 
+      position: absolute; 
+      top: 5px; 
+      right: 10px; 
+      font-weight: bold; 
+      color: #666; 
+      font-size: 0.85em; 
+    }
+    .col-1, .col-2, .col-3 { width: 100%; box-sizing: border-box; }
+  }
+</style>
+</head>
+<body>
+
+<h1>👶 فصل ۱: رشد و نمو کودکان (Pediatric Growth & Development)</h1>
+<p style="text-align: center; color: #666;">نسخه نهایی ادغام‌شده: شامل تمام جداول، اعداد حیاتی، ریسک‌فاکتورها و نکات "صد امتحانی".</p>
+
+<h3>۱. قوانین اعداد و آنتروپومتری (The Numbers Game)</h3>
+<table class="container">
+  <tr class="header-row">
+    <td>📉 فیزیولوژی رشد & چارت‌ها</td>
+    <td>📏 معیارهای طبیعی (اعداد مقدس)</td>
+    <td>⚠️ تله‌های طراح سوال & محاسبات</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="فیزیولوژی">
+      <strong>کاهش وزن نوزادی:</strong><br>
+      در چند روز اول تولد، نوزاد ۵ تا ۱۰ درصد وزن خود را از دست می‌دهد.<br>
+      این یک پروسه فیزیولوژیک است.<br><br>
+      <strong>انتخاب چارت رشد:</strong>
+      <ul>
+        <li><strong>۰ تا ۲ سال:</strong> چارت WHO (بر اساس وزن، قد خوابیده، دور سر).</li>
+        <li><strong>بالای ۲ سال:</strong> چارت CDC (بر اساس وزن، قد ایستاده، BMI).</li>
+      </ul>
+    </td>
+    <td class="col-2" data-label="معیارهای طبیعی">
+      <strong>قوانین وزن (Weight):</strong>
+      <ul>
+        <li><strong>بازگشت به وزن تولد:</strong> ۷ تا ۱۰ روزگی.</li>
+        <li><strong>دو برابر شدن وزن:</strong> ۴ تا ۵ ماهگی.</li>
+        <li><strong>سه برابر شدن وزن:</strong> ۱ سالگی.</li>
+        <li><strong>افزایش روزانه:</strong> ۲۰-۳۰ گرم (۳-۴ ماه اول) | ۱۵-۲۰ گرم (بقیه سال اول).</li>
+      </ul>
+      <hr>
+      <strong>قوانین قد (Height):</strong>
+      <ul>
+        <li><strong>تولد:</strong> ۵۰ سانتی‌متر.</li>
+        <li><strong>۱ سالگی:</strong> ۷۵ سانتی‌متر.</li>
+        <li><strong>۴ سالگی:</strong> ۱۰۰ سانتی‌متر (دو برابر قد تولد).</li>
+      </ul>
+      <hr>
+      <strong>قوانین دور سر (Head Circumference):</strong>
+      <ul>
+        <li><strong>تولد:</strong> ۳۵ سانتی‌متر.</li>
+        <li><strong>۳ ماه اول:</strong> ۲ سانتی‌متر در ماه.</li>
+        <li><strong>بعد از ۳ ماه:</strong> ۱ سانتی‌متر در ماه (آهسته‌تر).</li>
+      </ul>
+    </td>
+    <td class="col-3" data-label="تله‌ها & محاسبات">
+      <div class="alert-box">
+        <span class="trap">تله ۱:</span> قد در ۴ سالگی دو برابر می‌شود، اما وزن در ۴-۵ ماهگی دو برابر می‌شود.
+      </div>
+      <div class="note-box">
+        <strong>محاسبه BMI:</strong><br>
+        <span class="formula">BMI = Weight (kg) / Height (m)²</span><br>
+        مثال تستی: دختر ۴ ساله با وزن ۱۲kg و قد ۱۰۰cm (یعنی ۱ متر):<br>
+        <span class="formula">BMI = 12 / (1)² = 12</span><br>
+        طبق نمودار، BMI ۱۲ زیر صدک ۳ است.
+      </div>
+      <div class="green-box">
+        <strong>محاسبه قد نهایی (Mid-Parental):</strong><br>
+        دختر = (قد پدر + قد مادر) ÷ ۲، منهای ۶.۵.<br>
+        پسر = (قد پدر + قد مادر) ÷ ۲، به علاوه ۶.۵.
+      </div>
+    </td>
+  </tr>
+</table>
+
+<h3>۲. الگوهای اختلال رشد (Short Stature Patterns)</h3>
+<table class="container">
+  <tr class="header-row">
+    <td>🧩 الگوی بالینی</td>
+    <td>🔍 تشخیص افتراقی</td>
+    <td>✅ اقدام / نکته کلیدی</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="الگو">
+      <strong>۱. کوتاهی قد خانوادگی (Familial Short Stature):</strong><br>
+      کودکی که وزن، قد و دور سر همگی پایین (زیر صدک ۵) هستند.<br>
+      این کودکان از نظر ژنتیک طبیعی هستند ولی جثه کوچک‌تری دارند.
+    </td>
+    <td class="col-2" data-label="تشخیص">
+      <strong>مشخصات:</strong>
+      <ul>
+        <li>هر سه پارامتر (وزن، قد، دور سر) پایین است.</li>
+        <li>معاینه عصبی و تکاملی نرمال است.</li>
+        <li>بلوغ در سن طبیعی رخ می‌دهد.</li>
+      </ul>
+    </td>
+    <td class="col-3" data-label="نکته">
+      <div class="note-box">
+        نکته: اگر تمام پارامترها زیر صدک ۵ باشد، ۳ تشخیص مطرح است: ۱. فامیلیال ۲. تاخیر سرشتی ۳. اختلالات اندوکرین (هیپوفیز). اما اگر کودک سالم به نظر برسد، فامیلیال محتمل‌تر است.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="الگو">
+      <strong>۲. افت رشد طبیعی (Catch-down Growth):</strong><br>
+      کودکی که با صدک بالا به دنیا آمده اما بین <strong>۶ تا ۱۸ ماهگی</strong> به صدک پایین‌تر سقوط می‌کند.
+    </td>
+    <td class="col-2" data-label="تشخیص">
+      <strong>ویژگی‌ها:</strong>
+      <ul>
+        <li>معمولاً بیشتر از ۲ صدک اصلی افت نمی‌کنند.</li>
+        <li>تکامل و معاینه فیزیکی کاملاً نرمال است.</li>
+        <li>دارند با برنامه ژنتیکی خود منطبق می‌شوند.</li>
+      </ul>
+    </td>
+    <td class="col-3" data-label="نکته">
+      <div class="green-box">
+        اقدام: <strong>فقط پیگیری (Follow up)</strong>. نیاز به بررسی آزمایشگاهی نیست.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="الگو">
+      <strong>۳. کمبود کالری (Malnutrition):</strong><br>
+      ترتیب افت شاخص‌ها خیلی مهم است.<br>
+      اول <strong>وزن</strong> کم می‌شود ⬅️ بعد <strong>قد</strong> ⬅️ آخر <strong>دور سر</strong>.
+    </td>
+    <td class="col-2" data-label="تشخیص">
+      <strong>۴. هیپوتیروئیدی:</strong><br>
+      برعکس سوءتغذیه است!<br>
+      افزایش صدک وزن + کاهش صدک قد (کودک چاق و کوتاه).
+    </td>
+    <td class="col-3" data-label="نکته">
+      <div class="alert-box">
+        <span class="trap">تله حیاتی:</span> اگر "وزن بالا" رفت اما "قد پایین" آمد، سریعاً به فکر <strong>هیپوتیروئیدی</strong> باشید.
+      </div>
+    </td>
+  </tr>
+</table>
+
+<h3>۳. مراحل تکامل (Milestones) - جدول نجات‌بخش</h3>
+<p>این جدول دقیقاً بر اساس سوالات ۱۰۰ امتحانی و متن فایل استخراج شده است.</p>
+<table class="container">
+  <tr class="header-row">
+    <td>سن 📅</td>
+    <td>🏃 حرکات درشت (Gross Motor)</td>
+    <td>🤏 حرکات ظریف/اجتماعی (Fine/Social)</td>
+    <td>🗣️ زبان و شناخت (Language)</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۲ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">شانه را در حالت دمر بالا می‌دهد.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی"><strong>لبخند اجتماعی (Smile)</strong>. با چشم اشیاء را دنبال می‌کند.</td>
+    <td class="col-3" data-label="زبان">غان و غون (Cooing).</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۴ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">غلتیدن از رو به پشت.<br><strong>سرش به عقب نمی‌افتد (No Head Lag)</strong>.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">دست‌هایش را نگاه می‌کند.</td>
+    <td class="col-3" data-label="زبان">می‌خندد و جیغ می‌زند (خنده صدادار). با صدای بلند به طرف صدا برمی‌گردد.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۶ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت"><strong>به تنهایی می‌نشیند</strong>. غلتیدن از پشت به رو.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">دست به دست کردن اشیاء. خودش شیشه شیر را نگه می‌دارد.</td>
+    <td class="col-3" data-label="زبان">اصوات نامفهوم (Babbling).</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۹ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">می‌ایستد (با گرفتن دست).</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">گرفتن با انگشتان (Pincer grasp). <strong>بای بای کردن</strong>. قایم موشک بازی.</td>
+    <td class="col-3" data-label="زبان">"ماما" و "بابا" <strong>غیر اختصاصی</strong>. اضطراب جدایی/بیگانه (شروع ۹-۱۸ ماهگی).</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۱۲ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت"><strong>راه می‌رود</strong>.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی"><strong>نوشیدن از فنجان/لیوان</strong>. گذاشتن ۲ مکعب روی هم.</td>
+    <td class="col-3" data-label="زبان">"مامان" و "بابا" <strong>اختصاصی</strong>. ۱ تا ۲ کلمه دیگر هم می‌گوید.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۱۵ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">عقب‌عقب راه می‌رود. خم می‌شود و می‌ایستد.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">استفاده از <strong>قاشق و چنگال</strong>. خط خطی کردن. ۲ مکعب روی هم می‌چیند.</td>
+    <td class="col-3" data-label="زبان">۳ تا ۶ کلمه می‌گوید. دستورات ساده را اجرا می‌کند.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۱۸ ماهگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت"><strong>می‌دود (Runs)</strong>. شوت کردن توپ.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">۳ تا ۴ مکعب روی هم می‌چیند. لباسش را در می‌آورد.</td>
+    <td class="col-3" data-label="زبان">حداقل ۶ کلمه. اعضای بدن را می‌شناسد.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۲ سالگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">پله‌ها را بالا/پایین می‌رود (نه متناوب). پرتاب توپ به بالا. پرش طولی (Broad jump).</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">۶ مکعب روی هم می‌چیند. خط را کپی می‌کند. دست‌ها را می‌شوید.</td>
+    <td class="col-3" data-label="زبان">جملات ۲ کلمه‌ای. ۵۰٪ حرف‌هایش برای غریبه‌ها مفهوم است. مفهوم "امروز".</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۳ سالگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">پله‌ها را متناوب (پا عوض کردن) می‌رود. پریدن روی یک پا (Hops).</td>
+    <td class="col-2" data-label="ظریف/اجتماعی">۸ مکعب روی هم می‌چیند. <strong>کپی دایره</strong>. پوشیدن تی‌شرت.</td>
+    <td class="col-3" data-label="زبان">جملات ۳ کلمه‌ای. ۷۵٪ گفتار مفهوم است. مفهوم "فردا/دیروز".</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۴ سالگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">لی‌لی کردن روی یک پا (تعادل خوب).</td>
+    <td class="col-2" data-label="ظریف/اجتماعی"><strong>کپی علامت مثبت (+)</strong>. کشیدن آدمک ۳ قسمتی. مسواک زدن بدون کمک.</td>
+    <td class="col-3" data-label="زبان">۱۰۰٪ گفتار مفهوم است. رنگ‌ها را می‌شناسد. مفهوم صفت‌ها.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۵ سالگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">جست و خیز (Skips).</td>
+    <td class="col-2" data-label="ظریف/اجتماعی"><strong>کپی مربع</strong>. بند کفش بستن (ضمنی).</td>
+    <td class="col-3" data-label="زبان">شمردن. متضادها را می‌فهمد.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۶ سالگی</strong></td>
+    <td class="col-2" data-label="حرکات درشت">تعادل روی هر پا ۶ ثانیه.</td>
+    <td class="col-2" data-label="ظریف/اجتماعی"><strong>کپی مثلث</strong>. آدمک ۶ قسمتی.</td>
+    <td class="col-3" data-label="زبان">مفهوم راست و چپ را می‌فهمد.</td>
+  </tr>
+</table>
+
+<h3>۴. علائم هشدار تکاملی (Red Flags) - جدول ارتباطی</h3>
+<p>شرایطی که کودک دچار اختلال برقراری ارتباط است و نیاز به کمک دارد.</p>
+<table class="container">
+  <tr class="header-row">
+    <td>سن هشدار ⏰</td>
+    <td>🚩 علامت خطر (ارتباط و کلام)</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>زیر ۶ ماه</strong></td>
+    <td class="col-3" data-label="علامت خطر">در پاسخ به صداهای ناگهانی بلند یکه نخورد یا پلک نزند. به صدای انسان توجه نکند. با صدای مادر آرام نگردد.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۱۰ ماهگی</strong></td>
+    <td class="col-3" data-label="علامت خطر">به <strong>اسم خود</strong> پاسخ و واکنش نشان ندهد. فقط جیغ و ناله بزند (بدون غلغل).</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۱۲ ماهگی</strong></td>
+    <td class="col-3" data-label="علامت خطر">تنها قادر به بیان حروف صدادار باشد.</td>
+  </tr>
+  <tr>
+    <td class="col-1" data-label="سن"><strong>۱۵ ماهگی</strong></td>
+    <td class="col-3" data-label="علامت خطر">به کلمات "نه"، "بای بای" یا "شیشه شیر" واکنش ندهد. از صداها یا کلمات تقلید نکند
