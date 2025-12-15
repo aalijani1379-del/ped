@@ -1,479 +1,1 @@
-﻿<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<style>
-  body { font-family: 'Tahoma', 'Segoe UI', sans-serif; line-height: 1.8; color: #333; background-color: #fff; margin: 0; padding: 20px; }
-  h1 { background-color: #2c3e50; color: white; padding: 15px; border-radius: 8px; text-align: center; font-size: 1.8em; }
-  h3 { border-bottom: 3px solid #3498db; padding-bottom: 8px; margin-top: 40px; color: #2980b9; font-size: 1.4em; }
-  
-  .container { width: 100%; border-collapse: separate; border-spacing: 0; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
-  .header-row td { background-color: #4a4a4a; color: white; text-align: center; font-weight: bold; padding: 12px; border: 1px solid #333; }
-  
-  .col-1 { width: 32%; background-color: #fcfcfc; padding: 12px; border: 1px solid #eee; vertical-align: top; } /* مبانی/ریسک‌فاکتور */
-  .col-2 { width: 34%; background-color: #f0f8ff; padding: 12px; border: 1px solid #daeefc; vertical-align: top; } /* تشخیص/غربالگری */
-  .col-3 { width: 34%; background-color: #f2fff2; padding: 12px; border: 1px solid #d4ebd4; vertical-align: top; } /* درمان/نکات تستی */
-  
-  .alert-box { background-color: #ffe6e6; border-right: 5px solid #ff4d4d; padding: 10px; margin-top: 8px; font-size: 0.95em; color: #a00; }
-  .note-box { background-color: #fffbe6; border-right: 5px solid #ffcc00; padding: 10px; margin-top: 8px; font-size: 0.95em; color: #665c00; }
-  .green-box { background-color: #e6fffa; border-right: 5px solid #00cc99; padding: 10px; margin-top: 8px; font-size: 0.95em; color: #00664d; }
-  
-  ul { margin: 5px 0; padding-right: 20px; }
-  li { margin-bottom: 5px; }
-  .trap { color: #cc0000; font-weight: bold; }
-  .highlight { background-color: #ffffcc; padding: 0 4px; border-radius: 3px; }
-  .citation { font-size: 0.7em; color: #888; vertical-align: super; text-decoration: none; margin-right: 2px; }
-</style>
-</head>
-<body>
 
-<h1>👶 فصل ۱: رشد و نمو کودکان (Pediatric Growth & Development)</h1>
-[cite_start]<p>نسخه نهایی ادغام‌شده: شامل تمام جداول، اعداد حیاتی، ریسک‌فاکتورها و نکات "صد امتحانی"[cite: 54].</p>
-
-<h3>۱. قوانین اعداد و آنتروپومتری (The Numbers Game)</h3>
-<table class="container">
-  <tr class="header-row">
-    <td>📉 فیزیولوژی رشد & چارت‌ها</td>
-    <td>📏 معیارهای طبیعی (اعداد مقدس)</td>
-    <td>⚠️ تله‌های طراح سوال & محاسبات</td>
-  </tr>
-  <tr>
-    <td class="col-1">
-      <strong>کاهش وزن نوزادی:</strong><br>
-      [cite_start]در چند روز اول تولد، نوزاد ۵ تا ۱۰ درصد وزن خود را از دست می‌دهد[cite: 51, 54].<br>
-      این یک پروسه فیزیولوژیک است.<br><br>
-      <strong>انتخاب چارت رشد:</strong>
-      <ul>
-        [cite_start]<li><strong>۰ تا ۲ سال:</strong> چارت WHO (بر اساس وزن، قد خوابیده، دور سر)[cite: 71, 144].</li>
-        [cite_start]<li><strong>بالای ۲ سال:</strong> چارت CDC (بر اساس وزن، قد ایستاده، BMI)[cite: 71, 149].</li>
-      </ul>
-    </td>
-    <td class="col-2">
-      <strong>قوانین وزن (Weight):</strong>
-      <ul>
-        [cite_start]<li><strong>بازگشت به وزن تولد:</strong> ۷ تا ۱۰ روزگی[cite: 52, 54].</li>
-        [cite_start]<li><strong>دو برابر شدن وزن:</strong> ۴ تا ۵ ماهگی[cite: 36, 54].</li>
-        [cite_start]<li><strong>سه برابر شدن وزن:</strong> ۱ سالگی[cite: 37, 54].</li>
-        <li><strong>افزایش روزانه:</strong> ۲۰-۳۰ گرم (۳-۴ ماه اول) | [cite_start]۱۵-۲۰ گرم (بقیه سال اول)[cite: 54].</li>
-      </ul>
-      <hr>
-      <strong>قوانین قد (Height):</strong>
-      <ul>
-        [cite_start]<li><strong>تولد:</strong> ۵۰ سانتی‌متر[cite: 54].</li>
-        [cite_start]<li><strong>۱ سالگی:</strong> ۷۵ سانتی‌متر[cite: 38, 54].</li>
-        [cite_start]<li><strong>۴ سالگی:</strong> ۱۰۰ سانتی‌متر (دو برابر قد تولد)[cite: 38, 47, 54].</li>
-      </ul>
-      <hr>
-      <strong>قوانین دور سر (Head Circumference):</strong>
-      <ul>
-        [cite_start]<li><strong>تولد:</strong> ۳۵ سانتی‌متر[cite: 54].</li>
-        [cite_start]<li><strong>۳ ماه اول:</strong> ۲ سانتی‌متر در ماه[cite: 49, 54].</li>
-        [cite_start]<li><strong>بعد از ۳ ماه:</strong> ۱ سانتی‌متر در ماه (آهسته‌تر)[cite: 54].</li>
-      </ul>
-    </td>
-    <td class="col-3">
-      <div class="alert-box">
-        [cite_start]<span class="trap">تله ۱:</span> قد در ۴ سالگی دو برابر می‌شود، اما وزن در ۴-۵ ماهگی دو برابر می‌شود[cite: 44, 47].
-      </div>
-      <div class="note-box">
-        <strong>محاسبه BMI:</strong><br>
-        [cite_start]$BMI = \frac{\text{Weight (kg)}}{\text{Height (m)}^2}$[cite: 140].<br>
-        مثال تستی: دختر ۴ ساله با وزن ۱۲kg و قد ۱۰۰cm (یعنی ۱ متر):<br>
-        $BMI = 12 / (1)^2 = 12$<br>
-        [cite_start]طبق نمودار، BMI ۱۲ زیر صدک ۳ است[cite: 141].
-      </div>
-      <div class="green-box">
-        <strong>محاسبه قد نهایی (Mid-Parental):</strong><br>
-        [cite_start]دختر = (قد پدر + قد مادر) ÷ ۲، منهای ۶.۵ [cite: 231-248].<br>
-        [cite_start]پسر = (قد پدر + قد مادر) ÷ ۲، به علاوه ۶.۵[cite: 244].
-      </div>
-    </td>
-  </tr>
-</table>
-
-<h3>۲. الگوهای اختلال رشد (Short Stature Patterns)</h3>
-<table class="container">
-  <tr class="header-row">
-    <td>🧩 الگوی بالینی</td>
-    <td>🔍 تشخیص افتراقی</td>
-    <td>✅ اقدام / نکته کلیدی</td>
-  </tr>
-  <tr>
-    <td class="col-1">
-      <strong>۱. کوتاهی قد خانوادگی (Familial Short Stature):</strong><br>
-      [cite_start]کودکی که وزن، قد و دور سر همگی پایین (زیر صدک ۵) هستند[cite: 216].<br>
-      [cite_start]این کودکان از نظر ژنتیک طبیعی هستند ولی جثه کوچک‌تری دارند[cite: 217].
-    </td>
-    <td class="col-2">
-      <strong>مشخصات:</strong>
-      <ul>
-        [cite_start]<li>هر سه پارامتر (وزن، قد، دور سر) پایین است[cite: 216].</li>
-        [cite_start]<li>معاینه عصبی و تکاملی نرمال است[cite: 218].</li>
-        <li>بلوغ در سن طبیعی رخ می‌دهد.</li>
-      </ul>
-    </td>
-    <td class="col-3">
-      <div class="note-box">
-        نکته: اگر تمام پارامترها زیر صدک ۵ باشد، ۳ تشخیص مطرح است: ۱. فامیلیال ۲. تاخیر سرشتی ۳. [cite_start]اختلالات اندوکرین (هیپوفیز) [cite: 223-228]. اما اگر کودک سالم به نظر برسد، فامیلیال محتمل‌تر است.
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1">
-      <strong>۲. افت رشد طبیعی (Catch-down Growth):</strong><br>
-      [cite_start]کودکی که با صدک بالا به دنیا آمده اما بین <strong>۶ تا ۱۸ ماهگی</strong> به صدک پایین‌تر سقوط می‌کند [cite: 214-216].
-    </td>
-    <td class="col-2">
-      <strong>ویژگی‌ها:</strong>
-      <ul>
-        [cite_start]<li>معمولاً بیشتر از ۲ صدک اصلی افت نمی‌کنند[cite: 220].</li>
-        [cite_start]<li>تکامل و معاینه فیزیکی کاملاً نرمال است[cite: 218].</li>
-        [cite_start]<li>دارند با برنامه ژنتیکی خود منطبق می‌شوند[cite: 216].</li>
-      </ul>
-    </td>
-    <td class="col-3">
-      <div class="green-box">
-        اقدام: <strong>فقط پیگیری (Follow up)</strong>. [cite_start]نیاز به بررسی آزمایشگاهی نیست[cite: 220, 341].
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1">
-      <strong>۳. کمبود کالری (Malnutrition):</strong><br>
-      [cite_start]ترتیب افت شاخص‌ها خیلی مهم است[cite: 170, 329].<br>
-      [cite_start]اول <strong>وزن</strong> کم می‌شود ⬅️ بعد <strong>قد</strong> ⬅️ آخر <strong>دور سر</strong>[cite: 176, 329].
-    </td>
-    <td class="col-2">
-      <strong>۴. هیپوتیروئیدی:</strong><br>
-      برعکس سوءتغذیه است!<br>
-      [cite_start]افزایش صدک وزن + کاهش صدک قد (کودک چاق و کوتاه)[cite: 171, 330].
-    </td>
-    <td class="col-3">
-      <div class="alert-box">
-        [cite_start]<span class="trap">تله حیاتی:</span> اگر "وزن بالا" رفت اما "قد پایین" آمد، سریعاً به فکر <strong>هیپوتیروئیدی</strong> باشید[cite: 171].
-      </div>
-    </td>
-  </tr>
-</table>
-
-<h3>۳. مراحل تکامل (Milestones) - جدول نجات‌بخش</h3>
-[cite_start]<p>این جدول دقیقاً بر اساس سوالات ۱۰۰ امتحانی و متن فایل استخراج شده است[cite: 401].</p>
-<table class="container">
-  <tr class="header-row">
-    <td>سن 📅</td>
-    <td>🏃 حرکات درشت (Gross Motor)</td>
-    <td>🤏 حرکات ظریف/اجتماعی (Fine/Social)</td>
-    <td>🗣️ زبان و شناخت (Language)</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۲ ماهگی</strong></td>
-    [cite_start]<td class="col-2">شانه را در حالت دمر بالا می‌دهد[cite: 401].</td>
-    [cite_start]<td class="col-2"><strong>لبخند اجتماعی (Smile)</strong>[cite: 401]. [cite_start]با چشم اشیاء را دنبال می‌کند[cite: 401].</td>
-    [cite_start]<td class="col-3">غان و غون (Cooing)[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۴ ماهگی</strong></td>
-    [cite_start]<td class="col-2">غلتیدن از رو به پشت [cite: 376, 401][cite_start].<br><strong>سرش به عقب نمی‌افتد (No Head Lag)</strong>[cite: 374, 401].</td>
-    [cite_start]<td class="col-2">دست‌هایش را نگاه می‌کند[cite: 370, 401].</td>
-    [cite_start]<td class="col-3">می‌خندد و جیغ می‌زند (خنده صدادار)[cite: 370, 401]. با صدای بلند به طرف صدا برمی‌گردد.</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۶ ماهگی</strong></td>
-    [cite_start]<td class="col-2"><strong>به تنهایی می‌نشیند</strong>[cite: 363, 401, 551]. [cite_start]غلتیدن از پشت به رو[cite: 401].</td>
-    [cite_start]<td class="col-2">دست به دست کردن اشیاء[cite: 361, 401]. [cite_start]خودش شیشه شیر را نگه می‌دارد[cite: 361, 391, 401].</td>
-    [cite_start]<td class="col-3">اصوات نامفهوم (Babbling)[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۹ ماهگی</strong></td>
-    [cite_start]<td class="col-2">می‌ایستد (با گرفتن دست)[cite: 401].</td>
-    [cite_start]<td class="col-2">گرفتن با انگشتان (Pincer grasp)[cite: 380, 401]. [cite_start]<strong>بای بای کردن</strong>[cite: 393, 401]. [cite_start]قایم موشک بازی[cite: 401].</td>
-    [cite_start]<td class="col-3">"ماما" و "بابا" <strong>غیر اختصاصی</strong>[cite: 401, 417]. [cite_start]اضطراب جدایی/بیگانه (شروع ۹-۱۸ ماهگی)[cite: 277].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۲ ماهگی</strong></td>
-    [cite_start]<td class="col-2"><strong>راه می‌رود</strong>[cite: 401, 551].</td>
-    [cite_start]<td class="col-2"><strong>نوشیدن از فنجان/لیوان</strong>[cite: 392, 401]. [cite_start]گذاشتن ۲ مکعب روی هم[cite: 401].</td>
-    [cite_start]<td class="col-3">"مامان" و "بابا" <strong>اختصاصی</strong>[cite: 401, 421]. [cite_start]۱ تا ۲ کلمه دیگر هم می‌گوید[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۵ ماهگی</strong></td>
-    [cite_start]<td class="col-2">عقب‌عقب راه می‌رود[cite: 401, 552]. [cite_start]خم می‌شود و می‌ایستد[cite: 401].</td>
-    [cite_start]<td class="col-2">استفاده از <strong>قاشق و چنگال</strong>[cite: 388, 401]. [cite_start]خط خطی کردن[cite: 401]. [cite_start]۲ مکعب روی هم می‌چیند[cite: 556].</td>
-    [cite_start]<td class="col-3">۳ تا ۶ کلمه می‌گوید[cite: 401]. [cite_start]دستورات ساده را اجرا می‌کند[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۸ ماهگی</strong></td>
-    [cite_start]<td class="col-2"><strong>می‌دود (Runs)</strong>[cite: 401, 482, 553]. [cite_start]شوت کردن توپ[cite: 401].</td>
-    [cite_start]<td class="col-2">۳ تا ۴ مکعب روی هم می‌چیند[cite: 401, 556]. [cite_start]لباسش را در می‌آورد[cite: 401].</td>
-    [cite_start]<td class="col-3">حداقل ۶ کلمه[cite: 401]. [cite_start]اعضای بدن را می‌شناسد[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۲ سالگی</strong></td>
-    [cite_start]<td class="col-2">پله‌ها را بالا/پایین می‌رود (نه متناوب)[cite: 401]. [cite_start]پرتاب توپ به بالا[cite: 401]. [cite_start]پرش طولی (Broad jump)[cite: 481, 486].</td>
-    [cite_start]<td class="col-2">۶ مکعب روی هم می‌چیند[cite: 401, 557]. [cite_start]خط را کپی می‌کند[cite: 401]. [cite_start]دست‌ها را می‌شوید[cite: 401].</td>
-    [cite_start]<td class="col-3">جملات ۲ کلمه‌ای[cite: 401]. [cite_start]۵۰٪ حرف‌هایش برای غریبه‌ها مفهوم است[cite: 433]. [cite_start]مفهوم "امروز"[cite: 401, 558].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۳ سالگی</strong></td>
-    [cite_start]<td class="col-2">پله‌ها را متناوب (پا عوض کردن) می‌رود[cite: 401]. [cite_start]پریدن روی یک پا (Hops)[cite: 484, 491].</td>
-    [cite_start]<td class="col-2">۸ مکعب روی هم می‌چیند[cite: 401]. [cite_start]<strong>کپی دایره</strong>[cite: 401, 469]. [cite_start]پوشیدن تی‌شرت[cite: 401].</td>
-    [cite_start]<td class="col-3">جملات ۳ کلمه‌ای[cite: 401]. [cite_start]۷۵٪ گفتار مفهوم است[cite: 401, 415]. [cite_start]مفهوم "فردا/دیروز"[cite: 401, 558].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۴ سالگی</strong></td>
-    [cite_start]<td class="col-2">لی‌لی کردن روی یک پا (تعادل خوب)[cite: 401].</td>
-    [cite_start]<td class="col-2"><strong>کپی علامت مثبت (+)</strong>[cite: 401, 469]. [cite_start]کشیدن آدمک ۳ قسمتی[cite: 401]. [cite_start]مسواک زدن بدون کمک[cite: 401].</td>
-    [cite_start]<td class="col-3">۱۰۰٪ گفتار مفهوم است[cite: 469]. [cite_start]رنگ‌ها را می‌شناسد[cite: 401]. [cite_start]مفهوم صفت‌ها[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۵ سالگی</strong></td>
-    [cite_start]<td class="col-2">جست و خیز (Skips)[cite: 401, 483, 490].</td>
-    [cite_start]<td class="col-2"><strong>کپی مربع</strong>[cite: 401, 451, 470]. بند کفش بستن (ضمنی).</td>
-    [cite_start]<td class="col-3">شمردن[cite: 401]. [cite_start]متضادها را می‌فهمد[cite: 401].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۶ سالگی</strong></td>
-    [cite_start]<td class="col-2">تعادل روی هر پا ۶ ثانیه[cite: 401].</td>
-    [cite_start]<td class="col-2"><strong>کپی مثلث</strong>[cite: 401, 470]. [cite_start]آدمک ۶ قسمتی[cite: 401].</td>
-    [cite_start]<td class="col-3">مفهوم راست و چپ را می‌فهمد[cite: 401, 470].</td>
-  </tr>
-</table>
-
-<h3>۴. علائم هشدار تکاملی (Red Flags) - جدول ارتباطی</h3>
-[cite_start]<p>شرایطی که کودک دچار اختلال برقراری ارتباط است و نیاز به کمک دارد[cite: 787].</p>
-<table class="container">
-  <tr class="header-row">
-    <td>سن هشدار ⏰</td>
-    <td>🚩 علامت خطر (ارتباط و کلام)</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>زیر ۶ ماه</strong></td>
-    [cite_start]<td class="col-3">در پاسخ به صداهای ناگهانی بلند یکه نخورد یا پلک نزند[cite: 789]. [cite_start]به صدای انسان توجه نکند[cite: 790]. [cite_start]با صدای مادر آرام نگردد[cite: 790].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۰ ماهگی</strong></td>
-    [cite_start]<td class="col-3">به <strong>اسم خود</strong> پاسخ و واکنش نشان ندهد[cite: 792, 819]. [cite_start]فقط جیغ و ناله بزند (بدون غلغل)[cite: 793].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۲ ماهگی</strong></td>
-    [cite_start]<td class="col-3">تنها قادر به بیان حروف صدادار باشد[cite: 795].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۵ ماهگی</strong></td>
-    [cite_start]<td class="col-3">به کلمات "نه"، "بای بای" یا "شیشه شیر" واکنش ندهد[cite: 796]. [cite_start]از صداها یا کلمات تقلید نکند[cite: 797, 819].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۱۸ ماهگی</strong></td>
-    [cite_start]<td class="col-3">حداقل <strong>۶ کلمه</strong> با معنای مناسب استفاده نکند[cite: 798].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۲۴ ماهگی</strong></td>
-    [cite_start]<td class="col-3">حداقل ۵۰٪ صحبت‌هایش توسط <strong>آشنایان</strong> درک نشود[cite: 802]. [cite_start]کلمات را ترکیب نکند (جملات ۲ کلمه‌ای نسازد)[cite: 804]. [cite_start]اعضای بدن را نشناسد[cite: 803].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۳۰ ماهگی</strong></td>
-    [cite_start]<td class="col-3">معنای رو، زیر، جلو و عقب را نفهمد[cite: 804]. [cite_start]جملات سؤالی (کی، کجا) نپرسد[cite: 806].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>۳۶ ماهگی</strong></td>
-    [cite_start]<td class="col-3">صحبت‌هایش توسط <strong>افراد ناآشنا</strong> درک نگردد[cite: 807].</td>
-  </tr>
-</table>
-
-<h3>۵. ناتوانی ذهنی و غربالگری‌ها (ID & Screening)</h3>
-
-<div class="note-box">
-  [cite_start]<strong>سطوح ناتوانی ذهنی (ICD-10)[cite: 769]:</strong><br>
-  <ul>
-    <li><strong>خفیف (Mild):</strong> IQ ۵۰-۵۵ تا ۷۰</li>
-    <li><strong>متوسط (Moderate):</strong> IQ ۳۵-۴۰ تا ۵۰-۵۵</li>
-    <li><strong>شدید (Severe):</strong> IQ ۲۰-۲۵ تا ۳۵-۴۰</li>
-    <li><strong>عمیق (Profound):</strong> IQ کمتر از ۲۰ تا ۲۵</li>
-  </ul>
-</div>
-
-<table class="container">
-  <tr class="header-row">
-    <td>🩺 نوع غربالگری</td>
-    <td>⏰ زمان انجام</td>
-    <td>📝 نکات، اندیکاسیون‌ها و ریسک‌ها</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>شنوایی (Hearing)</strong></td>
-    <td class="col-2">
-      ۱. [cite_start]قبل از ترخیص (OAE)[cite: 569].<br>
-      ۲. [cite_start]تمام نوزادان در ۱ ماهگی[cite: 571, 594].
-    </td>
-    <td class="col-3">
-      [cite_start]اگر غیرطبیعی بود ⬅️ تکرار در ۳ ماهگی ⬅️ مداخله درمانی تا ۶ ماهگی[cite: 571, 594].<br>
-      [cite_start]<strong>ریسک فاکتورهای شنوایی:</strong> [cite: 527-536]
-      <ul>
-        <li>سابقه فامیلی در بستگان درجه ۱ (خاله، عمه، دایی).</li>
-        <li>بیلی‌روبین ≥ ۲۰ (کرن ایکتروس).</li>
-        <li>وزن تولد ≤ ۱۵۰۰ گرم.</li>
-        <li>عفونت‌های داخل رحمی (TORCH).</li>
-        <li>آپگار دقیقه ۵ ≤ ۵.</li>
-        <li>مننژیت، داروهای اتوتوکسیک، تعویض خون، PPHN.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>بینایی (Vision)</strong></td>
-    <td class="col-2">
-      [cite_start]<strong>زیر ۱ سال:</strong> معاینه دید دوچشمی (Red reflex, Cover test)[cite: 350, 353].<br>
-      [cite_start]<strong>اولین چارت:</strong> ۳ سالگی[cite: 660, 652].
-    </td>
-    <td class="col-3">
-      [cite_start]<strong>علائم خطر (Red Flags):</strong> [cite: 750-754]
-      <ul>
-        <li>رفتار غیرعادی، عدم لبخند به محرک، کندی در گرفتن اشیاء.</li>
-        [cite_start]<li><strong>نیستاگموس:</strong> در هر سنی غیرطبیعی است[cite: 755].</li>
-        <li>حرکات سرگردان چشم.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>کم‌خونی (Anemia)</strong></td>
-    <td class="col-2">
-      [cite_start]<strong>ترم سالم:</strong> ۱۲ ماهگی[cite: 599, 605, 659].<br>
-      [cite_start]<strong>نارس/LBW:</strong> بدو تولد و ۴ ماهگی[cite: 604, 700].
-    </td>
-    <td class="col-3">
-      [cite_start]در ۱۲ ماهگی اگر شک شدید باشد، تست درمانی با آهن انجام می‌شود[cite: 606].<br>
-      [cite_start]<strong>پروفیلاکسی سیکل سل:</strong> پنی‌سیلین خوراکی برای پیشگیری از سپسیس[cite: 557].
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>اوتیسم (Autism)</strong></td>
-    [cite_start]<td class="col-2">۱۸ ماهگی و ۲۴ ماهگی[cite: 473, 475, 550].</td>
-    [cite_start]<td class="col-3">تست انتخابی: پرسشنامه M-CHAT-R[cite: 476].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>کلسترول (Lipid)</strong></td>
-    <td class="col-2">
-      [cite_start]<strong>همگانی:</strong> ۹-۱۱ سالگی و ۱۷-۲۱ سالگی[cite: 645, 658, 709].<br>
-      [cite_start]<strong>پرخطر:</strong> ۲، ۴، ۶، ۸ سالگی[cite: 633].
-    </td>
-    <td class="col-3">
-      [cite_start]ریسک فاکتورها: سابقه فامیلی مثبت، چاقی، دیابت، فشار خون [cite: 634-635].
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>فشار خون (BP)</strong></td>
-    [cite_start]<td class="col-2">از ۳ سالگی (سالانه)[cite: 649, 711].</td>
-    <td class="col-3">-</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>سل (TB)</strong></td>
-    [cite_start]<td class="col-2">۱۲ ماهگی و سپس سالانه (فقط اگر ریسک دارد)[cite: 703].</td>
-    [cite_start]<td class="col-3">تست انتخابی: PPD[cite: 703].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>نوجوانان (Adolescent)</strong></td>
-    <td class="col-2">
-      [cite_start]<strong>افسردگی:</strong> سالانه از ۱۱ سالگی (PHQ2/PHQ9)[cite: 716].<br>
-      [cite_start]<strong>STD/HIV:</strong> ۱۶-۱۸ سالگی (اگر فعال جنسی)[cite: 715].
-    </td>
-    <td class="col-3">
-      [cite_start]بررسی‌های دیگر: اسکولیوز، چاقی، بیماری اسگود-شلاتر[cite: 262].
-    </td>
-  </tr>
-</table>
-
-<h3>۶. نوجوانی، ایمنی و روانشناسی (Safety & Psychology)</h3>
-<table class="container">
-  <tr>
-    <td class="col-1">
-      [cite_start]<strong>مراحل نوجوانی[cite: 331]:</strong>
-      <ul>
-        <li><strong>اوایل (Early):</strong> ۱۰-۱۳ سال. نگرانی بدنی ("آیا من طبیعی‌ام؟"). تمرکز بر حال. [cite_start]تفکر عینی[cite: 334].</li>
-        <li><strong>اواسط (Middle):</strong> ۱۴-۱۷ سال. رفتار پرخطر، احساس فنا ناپذیری، چالش با والدین، اوج تعارض. [cite_start]بیشترین ریسک تصادفات و خودکشی [cite: 343-352].</li>
-        <li><strong>اواخر (Late):</strong> ۱۸-۲۱ سال. [cite_start]تفکر آینده‌نگر (انتزاعی کامل)، برنامه‌ریزی شغلی/تحصیلی [cite: 316-317].</li>
-      </ul>
-    </td>
-    <td class="col-2">
-      [cite_start]<strong>ایمنی خودرو (Car Safety) [cite: 687-701]:</strong>
-      <ul>
-        [cite_start]<li><strong>رو به عقب:</strong> تا حداقل ۲ سالگی (امن‌ترین حالت) [cite: 693-694, 717].</li>
-        [cite_start]<li><strong>رو به جلو:</strong> بالای ۲ سال تا سن مدرسه[cite: 696].</li>
-        [cite_start]<li><strong>صندلی تقویت‌کننده (Booster):</strong> سن مدرسه (۸-۱۲ سال) تا زمانی که قد به ۴ فوت و ۹ اینچ (۱۴۵cm) برسد [cite: 698-699].</li>
-        [cite_start]<li><strong>صندلی جلو:</strong> اکیداً ممنوع برای زیر ۱۳ سال (خطر Airbag) [cite: 679-682, 700].</li>
-      </ul>
-      [cite_start]<span class="trap">نکته:</span> شایع‌ترین علت مرگ شیرخواران (۱ماه-۱سال) تصادفات است[cite: 691].
-    </td>
-    <td class="col-3">
-      [cite_start]<strong>انضباط (Discipline)[cite: 723]:</strong>
-      <ul>
-        [cite_start]<li>هدف: ایجاد Self-control است نه تنبیه[cite: 729].</li>
-        <li><strong>محروم‌سازی (Time out):</strong> بهترین روش برای رفتار نامناسب. [cite_start]۱ دقیقه به ازای هر سال سن (مثلاً ۵ سال = ۵ دقیقه)[cite: 727, 729].</li>
-        <li><strong>خاموشی (Extinction):</strong> برای رفتارهای آزاردهنده اما بی‌خطر (مثل نق زدن). [cite_start]ابتدا رفتار بدتر می‌شود، بعد خوب می‌شود[cite: 725, 728].</li>
-        [cite_start]<li><strong>بدترین روش:</strong> تهدید به ترک کردن کودک (ایجاد اضطراب)[cite: 717, 724].</li>
-        <li><strong>تنبیه بدنی:</strong> ممنوع. [cite_start]باعث Child abuse می‌شود[cite: 713].</li>
-      </ul>
-      <div class="note-box">
-        [cite_start]<strong>لکنت زبان (Stuttering):</strong> در ۳-۴ سالگی شایع و طبیعی است[cite: 521].<br>
-        درمان لازم است اگر: ۱. شدید باشد ۲. با تیک/وضعیت بدنی همراه باشد ۳. [cite_start]بعد از ۴ سالگی باشد [cite: 522, 566-567].
-        [cite_start]درمان اختلال تکلم <۳ سالگی نتیجه بهتری دارد[cite: 779].
-      </div>
-    </td>
-  </tr>
-</table>
-
-<h3>۷. نورولوژی و فلج مغزی (Neurology & CP)</h3>
-<p>شایع‌ترین نوع و علل آن از سوالات محبوب هستند.</p>
-
-<div class="note-box">
-  [cite_start]<strong>علل ماکروسفالی:</strong> الکساندر، سوتو، گانگلیوزیدوز، هیدروسفالی، موکوپلی‌ساکاریدوز، افیوژن ساب‌دورال [cite: 665-669].<br>
-  [cite_start]<strong>علل میکروسفالی:</strong> سوءتغذیه، سندرم آنجلمن، سندرم دولانژ، الکل جنینی [cite: 673-678].
-</div>
-
-<table class="container">
-  <tr class="header-row">
-    <td>نوع CP</td>
-    <td>درصد شیوع & تعریف</td>
-    <td>علائم کلیدی & انواع فلج</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>اسپاستیک (Spastic)</strong></td>
-    [cite_start]<td class="col-2">۷۰-۸۰٪ (شایع‌ترین) [cite: 878, 916][cite_start].<br>آسیب نورون حرکتی فوقانی[cite: 879].</td>
-    [cite_start]<td class="col-3">افزایش تون، رفلکس‌های پاتولوژیک (بابنسکی)[cite: 881].<br>
-    [cite_start]<strong>دی‌پلژی:</strong> درگیری پاها > دست‌ها[cite: 840, 857].<br>
-    [cite_start]<strong>همی‌پلژی:</strong> یک طرف بدن (دست و پا)[cite: 838].<br>
-    [cite_start]<strong>کوادری‌پلژی:</strong> هر ۴ اندام[cite: 848].
-    </td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>دیس‌کینتیک (Dyskinetic)</strong></td>
-    [cite_start]<td class="col-2">۱۰-۱۵٪[cite: 888].</td>
-    [cite_start]<td class="col-3">حرکات غیرارادی، راجعه و بدون کنترل[cite: 890].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>آتاکسیک (Ataxic)</strong></td>
-    [cite_start]<td class="col-2">کمتر از ۵٪ [cite: 891][cite_start].<br>آسیب مخچه[cite: 891].</td>
-    [cite_start]<td class="col-3">عدم هماهنگی حرکات، وضعیت بدنی غیرطبیعی[cite: 891].</td>
-  </tr>
-  <tr>
-    <td class="col-1"><strong>مخلوط (Mixed)</strong></td>
-    [cite_start]<td class="col-2">۱۰٪[cite: 895].</td>
-    <td class="col-3">ترکیبی از الگوها. [cite_start]عوارض بیشتر (تشنج، اختلال شناختی)[cite: 896].</td>
-  </tr>
-</table>
-
-<div class="alert-box">
-  [cite_start]<strong>ریسک فاکتورهای CP [cite: 883-898]:</strong><br>
-  <strong>حاملگی:</strong> وضعیت اقتصادی پایین، وزن کم تولد (<1500g)، تیروئید/استروژن مادر، تشنج مادر، پلی‌هیدرآمنیوس، اکلامپسی، خونریزی سه ماهه سوم، چندقلویی.<br>
-  <strong>تولد:</strong> HIE (آنسفالوپاتی)، کرن ایکتروس.<br>
-  <strong>اکتسابی:</strong> مننژیت، تروما (تصادف، کودک آزاری)، غرق شدگی، سکته مغزی.
-  [cite_start]<br>نکته: ۵۰٪ موارد CP علت مشخصی ندارند[cite: 915].
-</div>
-
-<div class="green-box">
-  [cite_start]<strong>نکته طلایی بیماری قلبی مادرزادی (CCHD) [cite: 560-563, 609, 621, 693]:</strong><br>
-  غربالگری با پالس اکسی‌متری دست راست و پا:<br>
-  ✅ <strong>طبیعی:</strong> اشباع ≥ ۹۵٪ و اختلاف دست و پا ≤ ۳٪.<br>
-  ❌ <strong>غیرطبیعی:</strong> اشباع < ۹۰٪ (در هر اندام).<br>
-  ⚠️ <strong>مشکوک:</strong> اگر بین این دو باشد ⬅️ تکرار تست یا اکو.
-</div>
-
-</body>
-</html>
